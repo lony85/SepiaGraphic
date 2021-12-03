@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/drawable/button_style_white.xml" value="0.3651041666666667" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/drawable/dot_default.xml" value="0.17592592592592593" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/drawable/dot_selected.xml" value="0.17592592592592593" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/drawable/ic_baseline_arrow_back.xml" value="0.3651041666666667" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/drawable/tab_selector.xml" value="0.185546875" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/about_us_fragment.xml" value="0.19114583333333332" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/activity_contact.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/activity_nactivity.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/activity_polycarbonate.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/activity_service_detail.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/activity_splash_screen.xml" value="0.3489583333333333" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/fragment_about_us.xml" value="0.24074074074074073" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/fragment_about_us2.xml" value="0.19114583333333332" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/fragment_dashboard.xml" value="0.3489583333333333" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/fragment_home.xml" value="0.75" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/fragment_notifications.xml" value="0.3489583333333333" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/fragment_order.xml" value="0.19114583333333332" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/fragment_polycarbonate.xml" value="0.3489583333333333" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/fragment_services.xml" value="0.3489583333333333" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/service_detail_layout.xml" value="0.3489583333333333" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/services_sample_layout.xml" value="0.3484375" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/slider_item.xml" value="0.18" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/slider_polycarbonate.xml" value="0.3489583333333333" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/toolbar.xml" value="0.3489583333333333" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/toolbar_style.xml" value="0.31666666666666665" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/layout/toolbar_style_contact.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3489583333333333" />
+        <entry key="..\:/AndroidProjects/SepiaGraphic/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3651041666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

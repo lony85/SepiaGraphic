@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/homelayout"
+    android:layout_height="match_parent"
+    android:background="@color/app_theme_background"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/head_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:paddingBottom="20dp"
+            android:src="@drawable/sepia_logo" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/chapDigital"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_style_white"
+        app:layout_constraintBottom_toTopOf="@+id/polycarbonite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="235dp"
+        android:layout_height="225dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/office_3d"
+        app:layout_constraintBottom_toBottomOf="@+id/chapDigital"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/chapDigital" />
+
+    <TextView
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:gravity="center"
+        android:text="خدمات
+        چاپ دیجیتال"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/chapDigital"
+        app:layout_constraintStart_toStartOf="@+id/chapDigital"
+        app:layout_constraintTop_toTopOf="@+id/chapDigital" />
+
+    <ImageView
+        android:id="@+id/polycarbonite"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_style_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/centerGuideLine"
+        app:layout_constraintStart_toStartOf="@+id/chapDigital"
+        app:layout_constraintTop_toBottomOf="@+id/chapDigital" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="152dp"
+        android:layout_height="153dp"
+        android:src="@drawable/panel_3d"
+        app:layout_constraintEnd_toEndOf="@+id/polycarbonite"
+        app:layout_constraintStart_toStartOf="@+id/polycarbonite"
+        app:layout_constraintTop_toTopOf="@+id/polycarbonite" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="پنل پلی کربنات"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/polycarbonite"
+        app:layout_constraintEnd_toEndOf="@+id/polycarbonite"
+        app:layout_constraintStart_toStartOf="@+id/polycarbonite"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+
+<!--    About US-->
+    <ImageView
+        android:id="@+id/about_button_1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="85dp"
+        android:background="@drawable/right_curve"
+        app:layout_constraintBottom_toBottomOf="@+id/polycarbonite"
+        app:layout_constraintEnd_toEndOf="@+id/about_button_2"
+        app:layout_constraintStart_toStartOf="@+id/centerGuideLine"
+        app:layout_constraintTop_toBottomOf="@+id/order_button_1" />
+
+    <ImageView
+        android:id="@+id/about_button_2"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:background="@drawable/about_us"
+        app:layout_constraintBottom_toBottomOf="@+id/about_button_1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/about_button_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="درباره ما"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/about_button_1"
+        app:layout_constraintEnd_toStartOf="@+id/about_button_2"
+        app:layout_constraintStart_toStartOf="@+id/about_button_1"
+        app:layout_constraintTop_toTopOf="@+id/about_button_1" />
+
+<!--   contactUs -->
+    <ImageView
+        android:id="@+id/cotact_button_1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="85dp"
+        android:background="@drawable/right_curve"
+        app:layout_constraintBottom_toTopOf="@+id/order_button_1"
+        app:layout_constraintEnd_toEndOf="@+id/contact_button_2"
+        app:layout_constraintStart_toStartOf="@+id/centerGuideLine"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/contact_button_2"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/contact_us"
+        app:layout_constraintBottom_toBottomOf="@+id/cotact_button_1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/cotact_button_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="تماس با ما"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cotact_button_1"
+        app:layout_constraintEnd_toEndOf="@+id/cotact_button_1"
+        app:layout_constraintStart_toStartOf="@+id/cotact_button_1"
+        app:layout_constraintTop_toTopOf="@+id/cotact_button_1" />
+<!--order-->
+    <ImageView
+        android:id="@+id/order_button_1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="85dp"
+        android:background="@drawable/right_curve"
+        app:layout_constraintBottom_toTopOf="@+id/about_button_1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/centerGuideLine"
+        app:layout_constraintTop_toBottomOf="@+id/cotact_button_1" />
+
+    <ImageView
+        android:id="@+id/order_button_2"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/order"
+        app:layout_constraintBottom_toBottomOf="@+id/order_button_1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/order_button_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="سفارش"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/order_button_1"
+        app:layout_constraintEnd_toEndOf="@+id/order_button_1"
+        app:layout_constraintStart_toStartOf="@+id/order_button_1"
+        app:layout_constraintTop_toTopOf="@+id/order_button_1" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/centerGuideLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+

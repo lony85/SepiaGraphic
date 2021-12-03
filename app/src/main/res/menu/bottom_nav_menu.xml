@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/title_home"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/navigation_services"
+        android:icon="@drawable/ic_baseline_design_services_24"
+        android:title="@string/title_services" />
+
+    <item
+        android:id="@+id/navigation_order"
+        android:icon="@drawable/ic_order"
+        android:title="@string/title_order" />
+    <item
+        android:id="@+id/navigation_AboutUs"
+        android:icon="@drawable/ic_menu_about_us"
+        android:title="@string/title_aboutUs" />
+
+</menu>
